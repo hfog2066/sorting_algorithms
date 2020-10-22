@@ -1,10 +1,12 @@
 #include "sort.h"
+
 /**
  * insertion_sort_list - sorts a doubly linked list of integers
  * in ascending order using the Insertion sort ailgorithm
  * @list: pointer to the list head
  * Return: no return
- **/
+ */
+
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *head_tmp1, *head_tmp2, *aux1, *aux2;
